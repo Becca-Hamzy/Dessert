@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+
+    <nav class="main-container">
+        <div class="container">
+            <h2>Desserts</h2>
+           <section class="upper">
+            <div class="desert">
+                <img id="waffle" src="./assets/images/image-waffle-desktop.jpg" alt="">
+                <p class="text">Waffle</p>
+                <h4 class="name">Waffle with Berries</h4>
+                <span class="red">$6.50</span>
+                <button class="invisible" id="butn"><span id="neg">-</span> <div id="zero">0</div> <span id="pos">+</span></button>
+                <button class="btn" id="btn1"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+                
+            </div>
+
+            <div class="desert">
+                <img id="brulee" src="./assets/images/image-creme-brulee-desktop.jpg" alt="">
+                <p class="text">Creme Brulee</p>
+                <h4 class="name">Vanilla Bean Creme Brulee</h4>
+                <span class="red">$7.00</span>
+                <button class="invisible" id="but"><span id="minus">-</span> <div id="zeero">0</div> <span id="plus">+</span></button>
+                <button class="btn" id="btn2"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+
+            <div class="desert">
+                <img id="macaron"  src="./assets/images/image-macaron-desktop.jpg" alt="">
+                <p class="text">Macaron</p>
+                <h4 class="name">Macaron Mix of Five</h4>
+                <span class="red">$8.00</span>
+                <button class="invisible" id="bttn"><span id="deduc">-</span> <div id="zeer">0</div> <span id="add">+</span></button>
+                <button class="btn" id="btn3"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+           </section>
+
+
+           <section class="middle">
+            <div class="desert">
+                <img id="tiramisu" src="./assets/images/image-tiramisu-desktop.jpg" alt="">
+                <p class="text">Tiramisu</p>
+                <h4 class="name">Classic Tiramisu</h4>
+               <span class="red">$5.50</span>
+               <button class="invisible" id="bto"><span id="subt">-</span><div id="zee">0</div> <span id="comb">+</span></button>
+               <button class="btn" id="btn4"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+
+            <div class="desert">
+                <img id="baklava" src="./assets/images/image-baklava-desktop.jpg" alt="">
+                <p class="text">Baklava</p>
+                <h4 class="name">Pistachio Baklava</h4>
+                <span class="red">$4.00</span>
+                <button class="invisible" id="press"><span id="reduce">-</span> <div id="zer">0</div> <span id="increase">+</span></button>
+               <button class="btn" id="btn5"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+
+            <div class="desert">
+                <img id="meringue" src="./assets/images/image-meringue-desktop.jpg" alt="">
+                <p class="text">Pie</p>
+                <h4 class="name">Lemon Meringue Pie</h4>
+                <span class="red">$5.00</span>
+                <button class="invisible" id="pres"><span id="negati">-</span><div id="empty">0</div><span id="posit">+</span></button>
+               <button class="btn" id="btn6"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+           </section>
+
+
+           <section class="down">
+            <div class="desert">
+                <img id="cake" src="./assets/images/image-cake-desktop.jpg" alt="">
+                <p class="text">Cake</p>
+                <h4 class="name">Red Velvet Cake</h4>
+                <span class="red">$4.50</span>
+                <button class="invisible" id="pre"><span id="less">-</span> <div id="cakezero">0</div> <span id="more">+</span></button>
+                <button class="btn" id="btn7"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+
+            <div class="desert">
+                <img id="brownie" src="./assets/images/image-brownie-desktop.jpg" alt="">
+                <p class="text">Brownie</p>
+                <h4 class="name">Salted Caramel Brownie</h4>
+                <span class="red">$5.50</span>
+                <button class="invisible" id="touch"><span id="debt">-</span><div id="brownzero">0</div> <span id="gain">+</span></button>
+               <button class="btn" id="btn8"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+
+            <div class="desert">
+                <img id="panna" src="./assets/images/image-panna-cotta-desktop.jpg" alt="">
+                <p class="text">Panna Cotta</p>
+                <h4 class="name">Vanilla Panna Cotta</h4>
+                <span class="red">$6.50</span>
+                <button class="invisible" id="touc"><span id="low">-</span><div id="pannazero">0</div> <span id="rise">+</span></button>
+                <button class="btn" id="btn9"><img src="./assets/images/icon-add-to-cart.svg" alt=""> &nbsp;Add to Cart</button>
+            </div>
+           </section>
+        </div>
+
+
+        <div class="section">
+            <h4>Your Cart (<span id="cart">0</span>)</h4>
+            <p>Order Total:  $<span id="total">0</span></p>
+            <p><img src="./assets/images/icon-carbon-neutral.svg" alt=""> This is a <b>carbon-neutral</b> delivery</p>
+            <button>Confirm Order</button>
+        </div>
+        
+    </nav>
+    <section id="null">
+        <h4>Your Cart (<span id="cart">0</span>)</h4>
+        <img src="./assets/images/illustration-empty-cart.svg" alt="">
+        <p>Your added items will appear here</p>
+    </section>
+</body>
+</html>
